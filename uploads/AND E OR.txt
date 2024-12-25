@@ -1,0 +1,27 @@
+AND E OR
+
+Exemplo 1: Usando AND
+Problema: Escreva um programa que verifica se um número está entre 10 e 20 (inclusive). Se estiver, o programa deve imprimir "O número está no intervalo", caso contrário, imprimir "Fora do intervalo".
+
+# Solicita ao usuário que insira um número
+numero = int(input("Digite um número: "))
+
+# Verifica se o número está entre 10 e 20
+if numero >= 10 and numero <= 20:
+    print("O número está no intervalo.")
+else:
+    print("Fora do intervalo.")
+	
+Exemplo 2: Usando OR
+Problema: Escreva um programa que verifica se um número é negativo ou maior que 100. Se for, o programa deve imprimir "Número inválido", caso contrário, "Número válido".
+
+
+# Solicita ao usuário que insira um número
+numero = int(input("Digite um número: "))
+
+# Verifica se o número é negativo ou maior que 100
+if numero < 0 or numero > 100:
+    print("Número inválido.")
+else:
+    print("Número válido.")
+Esses exemplos mostram como os operadores AND e OR podem ser usados para testar múltiplas condições em Python.

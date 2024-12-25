@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbb334;
+    margin: 0;
+    padding: 20px; /* Adiciona espaço ao redor do conteúdo */
+    text-align: center;
+}
+
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #c9c6c69a;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"], input[type="submit"] {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#file-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas de largura igual */
+    gap: 10px; /* Espaço entre as colunas e linhas */
+    margin: 20px auto; /* Centraliza a grade horizontalmente */
+    max-width: 1200px; /* Define uma largura máxima para a grade */
+    padding: 10px; /* Preenchimento interno */
+    border: 2px solid none;
+    border-radius: 15px;
+    background-color: #5c247c;
+}
+
+
+.file-item {
+    background-color: #fff; /* Fundo branco para os itens */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s; /* Transição suave para o efeito hover */
+    color: black;
+    max-width: 210px;
+}
+
+.file-item:hover {
+    transform: scale(1.35); /* Efeito de zoom ao passar o mouse */
+}
+
+.logo-container {
+    display: flex; /* Usar flexbox para alinhar os itens na mesma linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza o conteúdo */
+    margin-bottom: 30px; /* Espaçamento abaixo do container */
+}
+
+.logo {
+    max-width: 130px; /* Ajuste a largura máxima dos logos */
+    margin: 0 150px; /* Espaço lateral entre os logos e o título */
+}
+
+h2{
+    margin-top: 40px;
+}

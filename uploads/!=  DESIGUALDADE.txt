@@ -1,0 +1,49 @@
+Exemplo Simples
+Aqui está um exemplo simples que mostra o uso do operador de desigualdade !=:
+
+
+# Verificando desigualdade entre dois números
+a = 5
+b = 10
+
+if a != b:
+    print(f"{a} é diferente de {b}")
+else:
+    print(f"{a} é igual a {b}")
+Explicação:
+O código compara se a é diferente de b usando o operador !=.
+Se os valores forem diferentes, ele imprime que são diferentes; caso contrário, imprime que são iguais.
+Exemplo: Verificar entradas do usuário
+Aqui está um exemplo que usa o != para verificar se o usuário digitou a senha correta:
+
+
+# Programa para verificar senha
+senha_correta = "abc123"
+
+# Pede ao usuário para digitar a senha
+senha = input("Digite a senha: ")
+
+# Verifica se a senha está correta
+if senha != senha_correta:
+    print("Senha incorreta!")
+else:
+    print("Senha correta!")
+Explicação:
+O programa pede ao usuário que insira uma senha.
+Se a senha digitada for diferente da senha correta (abc123), o programa imprime "Senha incorreta!". Caso contrário, imprime "Senha correta!".
+Exemplo com loop while
+Você também pode usar != em loops para continuar um processo até que uma condição específica seja atendida:
+
+
+# Usando != em um loop while para continuar pedindo um número específico
+numero = 0
+
+while numero != 5:
+    numero = int(input("Digite o número 5: "))
+
+print("Você acertou, o número é 5!")
+
+Explicação:
+O loop while continua pedindo ao usuário para digitar o número 5 até que o número digitado seja igual a 5.
+Quando o usuário finalmente insere o número 5, o loop termina e imprime uma mensagem.
+Esses exemplos mostram como o operador != pode ser utilizado para verificar desigualdades e controlar a lógica de programas em diversas situações.
